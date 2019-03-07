@@ -19,6 +19,8 @@ http://localhost:8080/characters/1
 http://localhost:8080/characterclasses
 
 
+http://localhost:8080/characterclasses/1
+
 **Using Postman to test POST requests.**
 
 
