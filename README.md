@@ -11,15 +11,23 @@ http://localhost:8080/players/1
 
 
 http://localhost:8080/characters
+
+
 http://localhost:8080/characters/1
+
 
 http://localhost:8080/characterclasses
 
 
 **Using Postman to test POST requests.**
 
+
 **TO ADD A CHARACTER**
+
+
 http://localhost:8080/characters/post
+
+
 select Body and form-data
 
 |**KEYS**         |**Value**  |
@@ -31,6 +39,8 @@ select Body and form-data
 
 
 **TO ADD A PLAYER**
+
+
 select Body and form-data
 
 **KEYS**          |**Value**
