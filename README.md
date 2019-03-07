@@ -1,8 +1,14 @@
 # DataHibranate
 
 **Using Postman to test GET requests.**
-http://localhost:8080/players     \n
+
+
+http://localhost:8080/players   
+
+
 http://localhost:8080/players/1
+
+
 
 http://localhost:8080/characters
 http://localhost:8080/characters/1
