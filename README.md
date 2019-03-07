@@ -1,5 +1,8 @@
 # DataHibranate
 
+The .sql file assosiated to this is to find as gamers.sql in the outer project folder. 
+
+
 **Using Postman to test GET requests.**
 
 
