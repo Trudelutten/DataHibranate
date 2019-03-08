@@ -29,7 +29,7 @@ public class DataHibernateApplication {
 		}
 
 		//Add a character to the database
-		characters c = new characters(5, "name", 123, "Theif");
+		characters c = new characters(5, "TheBest", 123, "Theif");
 		addCharacter(c);
 		for (characters cc: getAllCharacters()) {
 			System.out.println(cc.toString());
