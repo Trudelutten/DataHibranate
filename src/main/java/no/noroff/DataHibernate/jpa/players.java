@@ -12,23 +12,6 @@ import java.io.Serializable;
 @Table(name = "players")
 public class players implements Serializable {
 
-    /*
-    public Map<String, String> charactersforperson = new HashMap<>();
-
-    private void setCharactersForPerson() {
-        List<characters> allCharactersList = getAllCharacters(); //To store all the characters in DB
-        for (characters c : allCharactersList) {
-            if (pid == c.getPcid()) {
-                charactersforperson.put(c.getCharacterName(), c.getCharacterClass());
-            }
-        }
-    }
-
-    public Map<String, String> getCharactersForPerson() {
-        return charactersforperson;
-    }
-    */
-
     public players() {
         //Empty constructor
     }
@@ -40,19 +23,11 @@ public class players implements Serializable {
         this.playerEmailAddress = playerEmailAddress;
         this.playerPassWord = playerPassWord;
 
-        //setCharactersForPerson();
-
     }
-
 
     public int getPlayerId () {
         return pid;
     }
-
-    /*
-    public void setId(int pid) {
-        this.pid = pid;
-    }*/
 
     public String getPlayerFirstName() {
         return playerFirstName;
@@ -118,9 +93,5 @@ public class players implements Serializable {
     @Column(name = "passWord", nullable = false)
     @JsonIgnore
     private String playerPassWord;
-
-    /*
-    @Column(name = "charactersforperson", nullable = false)
-    private Map<String, String> charactersforperson;*/
 
 }
